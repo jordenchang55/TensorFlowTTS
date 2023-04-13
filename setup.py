@@ -24,7 +24,7 @@ if LooseVersion(pip.__version__) < LooseVersion("19"):
 # TODO(@dathudeptrai) update requirement if needed.
 requirements = {
     "install": [
-        "tensorflow-macos==2.9.0" if platform.processor() == "arm" else "tensorflow-gpu==2.7.0",
+        "tensorflow-macos==2.13.0" if platform.processor() == "arm" else "tensorflow-gpu==2.7.0",
         "tensorflow-addons>=0.10.0",
         "setuptools>=38.5.1",
         "huggingface_hub==0.0.8",
